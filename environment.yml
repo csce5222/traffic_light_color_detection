@@ -1,0 +1,14 @@
+name: traffic_light_color_detection
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - matplotlib
+  - opencv
+  - pandas
+  - python=3.9.5
+  - jupyter
+  - seaborn
+  - scikit-learn
