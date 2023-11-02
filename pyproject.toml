@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "traffic_light_color_detection"
+version = "0.1.0"
+description = ""
+authors = ["Arun Kandula <ArunKumarReddyKandula@my.unt.edu>",
+           "Larry Johnson <johnson.larry.l@gmail.com>",
+           "Sima Siami-Namini <simasiami@gmail.com>"]
+
+[tool.poetry.dependencies]
+fastapi = "0.68.0"
+hypothesis = "^6.54.4"
+matplotlib = "^3.8.0"
+opencv-python = "^4.8.1"
+Pillow = "^10.1.0"
+python = ">=3.9.5,<3.10"
+python_multipart = "0.0.6"
+numpy = "^1.26.1"
+uvicorn = "0.15.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
