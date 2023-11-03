@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  traffic-light-color-detection:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/traffic_light_color_detection
+      - /traffic_light_color_detection/.local
+      - /traffic_light_color_detection/.pyenv
+      - /traffic_light_color_detection/.cache
+    networks:
+      - traffic-light-color-detection-net
+
+networks:
+  traffic-light-color-detection-net:
+    driver: bridge
