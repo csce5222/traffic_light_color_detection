@@ -6,7 +6,7 @@ from random import choice
 from traffic_light_color_detection.color_spaces import yuv_to_rgb, rgb_to_yuv
 from traffic_light_color_detection.viz import viz_layer
 
-BASE_IMAGE_DIR = "./data/kaggle_dataset/archive/test_dataset/test_images/"
+BASE_IMAGE_DIR = os.path.join(os.path.dirname(__file__), "./data/kaggle_dataset/test_dataset/test_images/")
 
 
 def get_image():
