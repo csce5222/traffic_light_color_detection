@@ -10,3 +10,5 @@ def viz_layer(pics, pic_titles):
         plt.axis('off')
         ax.imshow(np.squeeze(pics[i]))
         ax.set_title(pic_titles[i])
+
+    plt.show()
