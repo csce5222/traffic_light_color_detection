@@ -2,6 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
+
+# TODO - Modify visualization code to render images properly in the human visual spetrum
 def viz_layer(pics, pic_titles):
     fig = plt.figure(figsize=(20, 20))
 
