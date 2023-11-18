@@ -82,4 +82,3 @@ def test_convert_rgb_to_grey() -> None:
     image_comparison = np.isclose(original_image, gray_to_rgb_image, rtol=2)
     assert len(np.where(image_comparison == False)) < 5 # Set threshold of the observation of 5 feature vectors not being equal
 
-
