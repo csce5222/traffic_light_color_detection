@@ -1,8 +1,8 @@
 import cv2 as cv
 import os
 
-from traffic_light_color_detection.color_spaces import hsv_to_rgb, \
-                                                       rgb_to_hsv
+from traffic_light_color_detection.hsv_color_spaces import hsv_to_rgb, \
+                                                           rgb_to_hsv
 from test_util import BASE_IMAGE_DIR, get_image
 
 
