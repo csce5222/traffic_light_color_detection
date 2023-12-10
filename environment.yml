@@ -9,7 +9,10 @@ dependencies:
   - opencv
   - pandas
   - python=3.9.5
+  - Pillow
   - jupyter
   - seaborn
   - scikit-learn
   - shapely
+  - torchvision
+  - tqdm

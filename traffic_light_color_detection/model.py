@@ -23,3 +23,14 @@ class ColorIndex(Enum):
     SATURATION = [1]
     VALUE = [2]
 
+
+class ColorSpace(Enum):
+    CMY = "cmy"
+    GRAY = "gray"
+    HLS = "hls"
+    HSV = "hsv"
+    Lab = "lab"
+    XYZ = "xyz"
+    YUV = "yuv"
+    YCBCr = "ycbcr"
+
